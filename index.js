@@ -11,15 +11,16 @@ const constants = require('./constants');
         // o1.formula === o2.formula &&
         // o1.rating_reference_fee === o2.rating_reference_fee &&
         // o1.file_dt === o2.file_dt && // removerr
+        // o1.adjuster_id === o2.adjuster_id && //remover
+        // o1.cost_basis === o2.cost_basis && //remover
         // o1.location === o2.location &&
-        // o1.cost_basis === o2.cost_basis &&
-        // o1.client_address === o2.client_address &&
-        // o1.adjuster_id === o2.adjuster_id &&
+        // o1.client_address === o2.client_address && //agregar comas PO BOX 1201,Mandeville, LA
+
         // o1.fee_schedule_formula === o2.fee_schedule_formula &&
         // o1.rating_reference_formula === o2.rating_reference_formula &&
         // o1.due_amount === o2.due_amount &&
         // o1.saving === o2.saving &&
-        // o1.fee_schedule === o2.fee_schedule &&
+        o1.fee_schedule === o2.fee_schedule &&
         o1.adjuster === o2.adjuster &&
         o1.group_id === o2.group_id &&
         o1.group_name === o2.group_name &&
